@@ -1,0 +1,36 @@
+body {
+  background-image: url("http://1.bp.blogspot.com/-WVl4j__oeTk/UDnrZ7LHmcI/AAAAAAAAB-M/jyTkTzFgTT0/s1600/Funny+Gif+Pictures+free+%2811%29.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* h1 {
+  color: white;
+  background: rgb(255, 0, 0);
+  width: 250px;
+  text-align: center;
+  position: relative;
+  left: 570px;
+} */
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.10s;
+  background: black;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+  color: white;
+  font-size: 20px;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+  color: white;
+}
